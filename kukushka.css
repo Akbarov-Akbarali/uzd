@@ -81,15 +81,12 @@ a {
 
     .shop_svg {
         display: block;
-        width: 25px;
-        height: 25px;
+        color: red;
+        font-size: 40px;
+        font-weight: bold;
         cursor: pointer;
-        background-color: red;
-        padding: 3px;
-        border-radius: 15px;
         position: absolute;
-        right: 5px;
-        top: 5px;
+        right: 10px;
     }
 
     .value {
