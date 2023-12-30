@@ -23,14 +23,6 @@ a {
 .header_h1 {
    z-index: 5;
    margin-right: 0;
-   transition: transform 500ms ease;
-}
-
-.header_h1:hover {
-    background-color: #c5c5c5;
-    padding: 0 10px;
-    border-radius: 30px;
-    transform: scale(1.1);
 }
 
 .header_svg {
@@ -104,6 +96,11 @@ a {
         position: absolute;
         right: 0;
         left: 0;
+        margin: 0 30px;
+    }
+
+    .header_h1 {
+        font-size: 25px;
     }
 }
 
