@@ -46,14 +46,13 @@ a {
 
 .menu {
     padding: 5px;
-    background-color: rgb(55, 55, 55);
     border-radius: 10px;
 }
+
 
 .menu_icon {
     display: none;
 }
-
 
 .menu_list li {
     font-style: italic;
@@ -73,6 +72,12 @@ a {
 }
 
 @media (max-width: 800px) {
+    .menu {
+        padding: 5px;
+        background-color: rgb(55, 55, 55);
+        border-radius: 10px;
+    }
+
     .menu_icon {
         z-index: 5;
         display: block;
@@ -165,39 +170,6 @@ a {
     }
 }
 
-.header_city  {
-    padding: 0 20px;
-    background-color: rgb(55, 55, 55);
-    border-radius: 10px;
-    z-index: 11;
-    color: #fff;
-}
-
-.header_city  {
-    transition: transform 500ms ease;
-}
-
-.header_city:hover {
-    transform: scale(1.1);
-}
-
-@media(max-width: 1860px) {
-    .header_city {
-        position: fixed;
-        right: 0px;
-        top: auto;
-        bottom: 0px;
-        background-color: rgb(55, 55, 55);
-        border-radius: 10px;
-        margin: 0 10px 10px 0;
-        padding: 5px;
-    }
-
-    .header_city:hover {
-        transform: scale(1.1);
-    }
-}
-
 .boock {
     padding: 0 20px;
     text-decoration: none;
@@ -212,14 +184,13 @@ a {
 }
 
 .nav {
-    margin: 50px 10px 30px 10px;
+    margin: 80px 10px 0px 10px;
 }
 
 .nav_wrapper {
     margin: 15px 0;
     padding: 10px;
     width: 100%;
-    height: 100%;
     margin-bottom: 20px;
     background-color: rgba(50, 50, 50, 0.6);
     border-radius: 10px;
@@ -227,7 +198,7 @@ a {
 }
 
 .nav_img {
-    max-width: 300px;
+    max-width: 400px;
     display: flex;
     align-items: center;
     min-width: 200px;
@@ -241,7 +212,7 @@ a {
 .nav_title {
     min-width: 260px;
     font-size: 14px;
-    margin-left: 10px;
+    margin:0 10px;
     padding: 10px 0 10px 30px;
     background-color: rgb(55, 55, 55);
     border-radius: 10px;
