@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+    <form class="form" method="POST" action="https://formsubmit.co/farmed.ultr11@gmail.com">
+        <h1 class="form_title">Написать нам</h1>
+        <label class="form_label">
+            <input name="name" class="form_field" minlength="3" maxlength="20" required type="text" placeholder="Кукушка">
+            <span class="form_error">Введите Имя !</span>
+        </label>
+        <label class="form_label">
+            <input name="email" class="form_field" type="email" placeholder="your@gmail.com" required>
+            <span class="form_error">Введите E-mail !</span>
+        </label>
+        <label class="form_label">
+            <input name="tel" class="form_field" type="tel" placeholder="+996 999 999 999" required>
+            <span class="form_error">Введите номер !</span>
+        </label>
+        <label class="form_label">
+            <input name="address" class="form_field" required type="text" placeholder="Обл: Ош, г: Ош, ул: Ош">
+            <span class="form_error">Введите адрес !</span>
+        </label>
+        <button class="form_btn" type="submit">Отправить</button>
+    </form>
+</body>
+</html>
