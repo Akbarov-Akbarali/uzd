@@ -16,6 +16,7 @@ h2 {
     color: white;
     width: 200px;
     font-style: italic;
+    white-space: nowrap;
 }
 
 .city_wrapper {

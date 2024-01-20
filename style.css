@@ -194,6 +194,7 @@ a {
 }
 
 .boock {
+    margin: 4px;
     padding: 0 20px;
     text-decoration: none;
     z-index: 5;
@@ -201,11 +202,24 @@ a {
     border-radius: 10px;
 }
 
+.nav {
+    display: flex;
+}
+
 .nav_wrapper {
-    margin: 70px 0;
+    padding: 50px 0;
     display: flex;
     justify-content: center;
     width: 100%;
+    border-bottom: 2px solid rgb(32, 32, 32);
+}
+
+.nav_uzor {
+    background: url(/img/wxw1.jpg);
+}
+
+.nav_uzor1 {
+    background: url(/img/wxw6.jpg);
 }
 
 .nav_img {
@@ -221,17 +235,20 @@ a {
 
 .nav_title {
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     padding: 20px;
     margin: 5px;
     white-space: nowrap;
-    width: 250px;
+    width: 270px;
     min-width: 210px;
+    border-bottom: 2px solid rgb(32, 32, 32);
+    border-radius: 10px;
+    border-top: 2px solid rgb(32, 32, 32);
 }
 
 .section_cont {
     max-width: 900px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .section {
